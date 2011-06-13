@@ -113,7 +113,6 @@ def main():
         if pressed_keys[K_RIGHT]:
              rotation_direction = -1.
 
-
         pygame.display.flip()
         rotated_sprite = pygame.transform.rotate(sprite, sprite_rotation)
         w, h = rotated_sprite.get_size()
